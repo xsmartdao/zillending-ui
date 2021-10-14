@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
+    "@zilliqa-js/zilliqa": "^3.3.0",
     "axios": "^0.21.1",
     "craco-less": "^1.18.0",
     "daisyui": "^1.14.3",
