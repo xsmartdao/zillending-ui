@@ -12,8 +12,14 @@ module.exports = {
           }
         }
       }
-    },
-    { plugin: require('autoprefixer') },
-    { plugin: require('tailwindcss') }
-  ]
+    }
+  ],
+  style: {
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer')
+      ]
+    }
+  }
 }
